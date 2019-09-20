@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29230.47
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueObjects", "ValueObjects\ValueObjects.csproj", "{180802A3-DC4F-46EC-A530-01BDA2678EC2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValueObjects", "ValueObjects\ValueObjects.csproj", "{180802A3-DC4F-46EC-A530-01BDA2678EC2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{38C3E226-F3C6-46FF-89A7-895034E8AD00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "Entities\Entities.csproj", "{38C3E226-F3C6-46FF-89A7-895034E8AD00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainServices", "DomainServices\DomainServices.csproj", "{15761202-C05A-4B09-81FB-C237F1F8A784}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DomainServices", "DomainServices\DomainServices.csproj", "{15761202-C05A-4B09-81FB-C237F1F8A784}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aggregates", "Aggregates\Aggregates.csproj", "{952884D9-B592-417E-AF86-F779281E9C0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aggregates", "Aggregates\Aggregates.csproj", "{952884D9-B592-417E-AF86-F779281E9C0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDClass.DomainEvents", "DDDClass.DomainEvents\DDDClass.DomainEvents.csproj", "{719E3CD7-78CE-4DCD-B77D-AA0F766A2DE0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{952884D9-B592-417E-AF86-F779281E9C0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{952884D9-B592-417E-AF86-F779281E9C0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{952884D9-B592-417E-AF86-F779281E9C0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{719E3CD7-78CE-4DCD-B77D-AA0F766A2DE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{719E3CD7-78CE-4DCD-B77D-AA0F766A2DE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{719E3CD7-78CE-4DCD-B77D-AA0F766A2DE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{719E3CD7-78CE-4DCD-B77D-AA0F766A2DE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
