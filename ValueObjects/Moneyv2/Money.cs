@@ -30,6 +30,8 @@ namespace ValueObjects.Moneyv2
 
         protected override bool IsEqual(Money other)
         {
+            if (ReferenceEquals(other, null))
+                return false;
             return this.Value == other.Value;
         }
     }
